@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="org.civicoop.apiuidfix" type="module">
+  <file>apiuidfix</file>
+  <name>API UID Fix</name>
+  <description>When the API is called through rest the User ID is not set in the session. This is sometimes needed e.g. when completing a contribution</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Jaap Jansma</author>
+    <email>helpdesk@civicoop.org</email>
+  </maintainer>
+  <releaseDate>2014-10-24</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <civix>
+    <namespace>CRM/Apiuidfix</namespace>
+  </civix>
+</extension>
