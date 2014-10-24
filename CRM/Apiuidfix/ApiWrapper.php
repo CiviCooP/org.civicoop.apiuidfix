@@ -23,9 +23,7 @@ class CRM_Apiuidfix_ApiWrapper implements API_Wrapper {
     if (empty($valid_user)) {
       return $apiRequest;
     }
-    
     //now set the UID into the session
-    $session = CRM_Core_Session::singleton();
     $session->set('userID', $valid_user);
     return $apiRequest;
   }

@@ -2,8 +2,8 @@
 
 require_once 'apiuidfix.civix.php';
 
-function apiuidfix_apiWrappers(&$wrappers, $apiRequest) {
-  $apiWrappers[] = new CRM_Apiuidfix_ApiWrapper();
+function apiuidfix_civicrm_apiWrappers(&$wrappers, $apiRequest) {
+  $wrappers[] = new CRM_Apiuidfix_ApiWrapper();
 }
 
 /**
