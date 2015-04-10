@@ -6,7 +6,8 @@ class CRM_Apiuidfix_ApiWrapper implements API_Wrapper {
    */
   public function fromApiInput($apiRequest) {
     $session = CRM_Core_Session::singleton();
-    if (!empty($session->get('userID'))) {
+    $userId = $session->get('userID');
+    if (!empty($userId)) {
       return $apiRequest;
     }
     
