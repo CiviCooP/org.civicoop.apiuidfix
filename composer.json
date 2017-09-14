@@ -1,0 +1,12 @@
+{
+  "name": "civicoop/org.civicoop.apiuidfix",
+  "description": "When the API is called through rest the User ID is not set in the session. This is sometimes needed e.g. when completing a contribution",
+  "type": "civicrm-module",
+  "authors": [
+    {
+      "name": "Jaap Jansma",
+      "email": "helpdesk@civicoop.org"
+    }
+  ],
+  "license": "AGPL-3.0"
+}
